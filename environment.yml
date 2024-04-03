@@ -1,0 +1,29 @@
+name: multiome_winner
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - r=4.3
+  - get_version
+  - rpy2
+  - jupyter
+  - nb_conda
+  - ipykernel
+  - nbconvert
+  - scanpy
+  - python-igraph
+  - leidenalg
+  - anndata2ri
+  - r-devtools
+  - geos
+  - r-xml
+  - pyarrow
+  - pytabix
+  - pyranges
+  - bedtools
+  - openpyxl
+  - gseapy
+  - fa2
+  - cmake
+  - mamba
