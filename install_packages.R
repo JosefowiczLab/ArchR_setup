@@ -1,7 +1,0 @@
-if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
-devtools::install_github("jokergoo/ComplexHeatmap")
-devtools::install_github("dpeerlab/ArchR", ref="master", repos = BiocManager::repositories())
-library(ArchR)
-ArchR::installExtraPackages()
-devtools::install_github("GreenleafLab/chromVARmotifs")
-install.packages("tidyr", dependencies=TRUE)
